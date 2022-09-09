@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="Vnaam">Voornaam:</label><br>
-    <input type="text" id="vnaam" name="voornaam"  
+    <form>
+        <label for="Vnaam">Voornaam:</label><br>
+        <input type="text" id="vnaam" name="voornaam" pattern="[^0-9]*">  
+        <br>
+        <label for="Anaam">Achternaam</label><br>
+        <input type="text" id="Anaam" name="Achternaam" pattern="[^0-9]*">  
+        <br>
+        <input type="submit" value="Submit">
+        </form>>
 </body>
 </html>
