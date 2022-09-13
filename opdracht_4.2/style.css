@@ -1,6 +1,6 @@
 h1 {
     font-size: 24px;
-    color: blue ;
+    color: rgb(255, 0, 0) ;
     font-weight: bold;
 
 }
@@ -15,7 +15,7 @@ h3 {
     font-weight:bold;
 }
 p {
-    color:#4D4D4D; 
+    color:#00d331; 
 }
 .dik {
     font-weight:bold
@@ -34,7 +34,17 @@ header {
    height: 33%;
 }
 
-header img {
-    z-index: -1;
-    position: absolute;
+header {
+    background-image: url("Nitro_Wallpaper_5000x2813.jpg");
+    margin:auto
 }
+img  {
+    width:50%;
+}
+article {
+    border-width: 5px;
+    border-style: solid;
+    border-left-width: 10px;
+    border-radius: 15px;
+}
+
