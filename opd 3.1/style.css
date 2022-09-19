@@ -20,6 +20,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -96,7 +97,6 @@ body {
   left: 820px;
  top: 100px;
   font-size:2em
-  
 }
 section {
   width: 100%;
@@ -105,9 +105,29 @@ section {
 footer {
   background-color:#00a8c7;
   color:white;
-  height:50px;
   text-align:center;
   font-size: 20px;
-  position:relative;
-  top: 30px;
+  padding: 20px;
 }
+nav {
+  position:fixed;
+  top:0;
+}
+.image_right {
+
+  position: relative;
+  left: 1000px;
+  width: 400px;
+  height: 400px;
+  top: -200px;
+
+
+}
+
+.text_left {
+  font-size: 2em;
+  position:relative;
+top: 150px;
+left: 150px;
+}
+
