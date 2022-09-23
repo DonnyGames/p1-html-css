@@ -46,6 +46,8 @@ header {
 h1 {
   text-align:center;
   font-size:5em;
+  position:relative;
+  top:80rem
 }
 body {
   background-color: black;
@@ -62,14 +64,11 @@ h2 {
 header {
   
   background-image:url("aardappel.jpg");
-  width:100%;
-  height:900px;
+  width:100vw;
+  height: 130vh;
   background-size: cover;
 }
-h1 {
-  position: relative;
-  top: 600px
-}
+
 
 .center_big {
   text-align: center;
@@ -77,37 +76,37 @@ h1 {
 }
 .rechter_position {
   position: relative;
-  left: 750px;
- top: 100px;
+  left: 80rem;
+ top: 10rem;
   font-size:2em
   
 }
 
 .image_left {
-  width: 600px;
-  height: 400px;
+  width: 30vw;
+  height: 50vh;
   position: relative;
-  top: -200px;
+  top: -25rem;
 }
 body {
   overflow-x: hidden;
 }
 .rechter_position2 {
   position: relative;
-  left: 820px;
- top: 100px;
+  left: 82rem;
+ top: 10rem;
   font-size:2em
 }
 section {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 footer {
   background-color:#00a8c7;
   color:white;
   text-align:center;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 2rem;
+  padding: 2rem;
 }
 nav {
   position:fixed;
@@ -116,10 +115,10 @@ nav {
 .image_right {
 
   position: relative;
-  left: 1000px;
-  width: 400px;
-  height: 400px;
-  top: -200px;
+  left: 100rem;
+  width: 40rem;
+  height: 40rem;
+  top: -20rem;
 
 
 }
@@ -127,7 +126,7 @@ nav {
 .text_left {
   font-size: 2em;
   position:relative;
-top: 150px;
-left: 150px;
+top: 15rem;
+left: 15rem;
 }
 
