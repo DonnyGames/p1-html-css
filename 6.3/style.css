@@ -1,0 +1,22 @@
+ul {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #b9b9;
+    height:10vh;
+    font-size:2em;
+    color:blue;
+    
+    
+
+ 
+}
+ul li {
+   list-style: none;
+}
+
+
+
+ul section {
+ display: flex;
+  
+}
