@@ -177,3 +177,21 @@ left: 15rem;
 
 .dropdown:hover .dropbtn {background-color:white; color:#00a8c7;};
 
+.jaar2:hover + .dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown:hover {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown h1 {
+  font-size: 2.5rem;
+}
+
+
+
+
+
