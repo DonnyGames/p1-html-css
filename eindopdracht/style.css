@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin:0px;
+    overflow-x: hidden;
+    
+    
+   
+}
+.hoofdfont {
+   position: relative;
+    font-family: "Pattaya";
+    margin:2rem;
+    color: white;
+    left:3rem;
+    font-size: 1.6em;
+}
+
+.navbar {
+    position: fixed;
+    display:flex;
+    background-color:#131c27;
+    z-index: 3;
+}
+.menu ul  {
+    display:flex;
+ flex-direction: row;
+ margin-left:60rem
+ 
+
+}
+
+
+li {
+    color:white;
+    list-style: none;
+    margin:2rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-size:1em;    
+    font-weight: bold;
+    
+
+}
+
+
+.background {
+  
+    background-image: url("./images/landing-page.jpg");
+    background-size: cover;
+ height:52rem;
+   z-index: 1;
+}
+.background2 {
+  
+    background: url("./images/new-york-page.png");
+    background-size: cover;
+ height:60rem; 
+ position: relative;
+ bottom: 20rem;
+ 
+
+}
+
+.hoofd {
+    position: relative;
+    bottom:30rem;
+    left:37rem;
+    color: white;
+    font-family: "Poppins";
+    font-size:2em;
+    
+}
+
+.main1 {
+    text-align: center;
+    position: relative;
+    bottom:28rem;
+    color: white;
+    font-size:1.6em;
+    font-family: "Poppins";
+    
+}
+.buttonbook {
+    color:white;
+    border: none;
+    background-color: #4c6e97;
+    position:relative;
+    bottom:26rem;
+    font-size: 1.2em;
+    left:38rem;
+    font-family: "Poppins";
+    width:20rem;
+    height:4rem;
+
+}
+
+.buttonbook:hover {
+    background-color: #4c6e78;
+
+}
+
+.heading2 {
+    position: relative;
+    font-family: "Poppins";
+    bottom:50rem;
+    left:5rem;
+    border-bottom:black ;
+    border: 3px;
+    font-size: 3em;
+    text-decoration: underline;
+}
+.main2 {
+    font-family: "Poppins";
+    position: relative;
+    bottom:48rem;
+    left:5rem;
+    font-size:1.4em;
+}
+
+body {
+    min-height: 80vh;;
+}
+
+
