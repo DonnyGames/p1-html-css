@@ -393,6 +393,7 @@ li {
  height:60rem; 
  position: relative;
  bottom: 20rem;
+ background-position: -70vh 0 ;
  
  
 
@@ -445,7 +446,7 @@ li {
     left:5rem;
     border-bottom:black ;
     border: 3px;
-    font-size: 3em;
+    font-size: 2.5em;
     text-decoration: underline;
     color:white
 }
@@ -453,9 +454,10 @@ li {
     font-family: "Poppins";
     position: relative;
     bottom:48rem;
-    left:5rem;
-    font-size:1.4em;
+    left:1rem;
+    font-size:1.2em;
     color:white;
+    text-align: center;
 }
 
 body {
@@ -474,14 +476,14 @@ body {
 }
 
 .top3 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     position: relative;
     top:2rem
 }
 
 .top3 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align:center;
     position: relative;
     top:3rem
@@ -489,44 +491,41 @@ body {
 
 .box1, .box2, .box3 {
     
-    height:50vh;
-    width:20vw;
+    height:40vh;
+    width:30vw;
+    position: relative;
+    top:10rem
 }
 
 .box1 {
-    /* position: relative;
-    bottom:25rem;
-    left:8rem; */
+     
 box-shadow: 0px 10px 20px #909090;
 }
 .box2 {
-    /* position: relative;
-    bottom:48.3rem;
-    left:35rem; */
+    
+     
     box-shadow: 0px 10px 20px #909090;
-
+    
 
 }
 .box3 {
-    /* position: relative;
-bottom:71.5rem;
-    left:64rem; */
+    
     box-shadow: 0px 10px 20px #909090 ;
 }
 
 .box1 header {
     background-color:#131c27;
-    height:7rem;
+    height:5rem;
 }
 
 .box2 header {
     background-color:#131c27;
-    height:7rem;
+    height:5rem;
 }
 
 .box3 header {
     background-color:#131c27;
-    height:7rem;
+    height:5rem;
 }
 
 /* .box1 header img {
@@ -548,24 +547,24 @@ bottom:71.5rem;
     font-family: "Poppins";
 }
 .box1 header img {
-    height:10vh;
-    width: 10vw;
+    height:8vh;
+    width: 8vw;
     position: relative;
     left:4.5rem;
     top:1rem
 }
 
 .box2 header img {
-    height:10vh;
-    width: 10vw;
+    height:8vh;
+    width: 8vw;
     position: relative;
     left:4.5rem;
     top:1rem
 }
 
 .box3 header img {
-    height:10vh;
-    width: 10vw;
+    height:8vh;
+    width: 8vw;
     position: relative;
     left:4.5rem;
     top:1rem
@@ -583,12 +582,14 @@ bottom:71.5rem;
     display:flex;
     justify-content: center;
     text-align: center;
+    font-size: 0.7em;
 }
 .background3 {
     background: url("./images/contact-mountain.png"), linear-gradient(rgb(124, 124, 124), rgb(248, 248, 248));
     height:100vh;
     background-size: cover;
     position: relative;
+    background-position: -70vh 0 ;
     
 }
 .buttonsection {
@@ -598,7 +599,7 @@ bottom:71.5rem;
     background-color:#131c2795;
     position: relative;
     top:15rem;
-    left:17rem;
+    left:7rem;
    border-radius: 10px;
    font-family: "Poppins";
    color: white;
@@ -612,12 +613,12 @@ bottom:71.5rem;
     justify-content: center;
    flex-direction: column;
    align-items: center;
-   font-size: 2em;
+   font-size: 1.5em;
    justify-content: space-evenly;
  
 }
 .buttonflex input {
-font-size: 0.8em;
+font-size: 0.5em;
 margin-bottom: 3rem;
 }
 
@@ -652,17 +653,15 @@ label {
 }
 
 .end h2 {
-    margin-left: 7rem;
-}
+    margin:1rem
+ }
+
 
 .icons {
-   margin-left: 10rem;
-   display: flex;
+    margin-left:7rem;
 }
-
-.icont, .icony, .iconi {
-    display: flex;
-   margin-left: 20rem;
+.icont, .icony, .iconi  {
+    margin-left:3rem;
 }
 
 }
